@@ -1,7 +1,7 @@
 ---
 title: "What do all these word mean Tilley?!?! (A non-comprehensive glossary)"
 date: 2023-06-15T20:11:30-05:00
-draft: true
+draft: false
 ---
 
 
