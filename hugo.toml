@@ -1,0 +1,65 @@
+baseurl = "/"
+theme = "risotto"
+title = "Binaries are for Computers, Not for People"
+author = "Xavier Tilley"
+paginate = 5
+languageCode = "en"
+
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-dark"
+
+# Sidebar: about/bio
+[params.about]
+title = "Binaries are for Computers, Not for People"
+description = "A lunch and learn about queerness."
+logo = "images/progress-pride.svg"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "glossary"
+    name = "Glossary"
+    pageRef = "/glossary"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "genderbread"
+    name = "Genderbread"
+    pageRef = "/genderbread"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "additional_reading"
+    name = "Additional Reading"
+    pageRef = "/additional_reading"
+    weight = 30
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
