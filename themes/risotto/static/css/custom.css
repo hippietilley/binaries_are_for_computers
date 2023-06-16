@@ -1,0 +1,137 @@
+/* Override this file to customise the theme's CSS for your site */
+/* The actual sliders. */
+dl {
+    padding-left: 143px;
+    background: transparent url(none.png) no-repeat;
+}
+
+dt {
+    height: 39px;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+dt::before {
+    display: inline-block;
+    width: 348px;
+    height: 41px;
+    content: '';
+    background: transparent url(arrow.png);
+    vertical-align: middle;
+    margin-right: .3em;
+}
+
+#identity dt::before {
+    background-color: #7cafc2;
+}
+
+#expression dt::before {
+    background-color: #f7ca88;
+}
+
+#anatomy dt::before {
+    background-color: #ba8baf;
+}
+
+#sexual dt::before {
+    background-color: #ab4642;
+}
+
+#romantic dt::before {
+    background-color: #a1b56c;
+}
+
+dd {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent url(selector.png);
+    overflow: hidden;
+    text-indent: 25px;
+    margin: -31px 0 0 11px;
+}
+
+dt span {
+    font-size: 90%;
+}
+
+/* 11 + 3x */
+dd[title="5%"] {
+    margin-left: 26px;
+}
+
+dd[title="10%"] {
+    margin-left: 41px;
+}
+
+dd[title="15%"] {
+    margin-left: 56px;
+}
+
+dd[title="20%"] {
+    margin-left: 71px;
+}
+
+dd[title="25%"] {
+    margin-left: 86px;
+}
+
+dd[title="30%"] {
+    margin-left: 101px;
+}
+
+dd[title="35%"] {
+    margin-left: 116px;
+}
+
+dd[title="40%"] {
+    margin-left: 131px;
+}
+
+dd[title="45%"] {
+    margin-left: 146px;
+}
+
+dd[title="50%"] {
+    margin-left: 161px;
+}
+
+dd[title="55%"] {
+    margin-left: 176px;
+}
+
+dd[title="60%"] {
+    margin-left: 191px;
+}
+
+dd[title="65%"] {
+    margin-left: 206px;
+}
+
+dd[title="70%"] {
+    margin-left: 221px;
+}
+
+dd[title="75%"] {
+    margin-left: 236px;
+}
+
+dd[title="80%"] {
+    margin-left: 251px;
+}
+
+dd[title="85%"] {
+    margin-left: 266px;
+}
+
+dd[title="90%"] {
+    margin-left: 281px;
+}
+
+dd[title="95%"] {
+    margin-left: 296px;
+}
+
+dd[title="100%"] {
+    margin-left: 311px;
+}
