@@ -1,1 +1,1 @@
-![cyanide and happiness](/cyanideandhappinessgenderroles.png)
+![cyanide and happiness](cyanideandhappinessgenderroles.png)
